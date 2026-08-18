@@ -7,8 +7,7 @@ export default defineConfig({
     },
 
     prerender: {
-      enabled: true,
-      crawlLinks: true,
+      enabled: false,
     },
   },
 });
