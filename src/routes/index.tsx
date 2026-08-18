@@ -1,4 +1,4 @@
-import { createFileRoute } from "@tanstack/react-router";
+
 import {
   Activity,
   Archive,
@@ -27,18 +27,7 @@ import { useEffect, useMemo, useState, type ReactNode } from "react";
 
 import { byId, quotes, RANGE, type Quote } from "@/data/quotes";
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { title: "SETH_OS — Corporate Build 2026.08" },
-      {
-        name: "description",
-        content: "An undocumented production environment operational since approximately 2014.",
-      },
-    ],
-  }),
-  component: Index,
-});
+
 
 type ModuleId =
   | "overview"
@@ -365,7 +354,7 @@ function ModuleView({ id }: { id: ModuleId }) {
   return null;
 }
 
-function Index() {
+export default function Index() {
   const [booted, setBooted] = useState(false);
   const [active, setActive] = useState<ModuleId>("overview");
   const [notification, setNotification] = useState<Quote | null>(null);
