@@ -36,7 +36,7 @@ export const quotes: Quote[] = [
   {
     id: "022",
     dialogue: [
-      { speaker: "Me", line: "Why would it change that by itself?" },
+      { speaker: "Nayeem", line: "Why would it change that by itself?" },
       { speaker: "Seth", line: "Because computers are fucking stupid. 12 years I’ve been doing this and always see little shit like that" },
     ],
     subject: "Root Cause Analysis",
@@ -45,7 +45,7 @@ export const quotes: Quote[] = [
   {
     id: "024",
     dialogue: [
-      { speaker: "Me", line: "Why is the HPS database called HPS not HSP?" },
+      { speaker: "Nayeem", line: "Why is the HPS database called HPS not HSP?" },
       { speaker: "Seth", line: "Alcohol" },
     ],
     subject: "Naming Conventions",
@@ -53,7 +53,7 @@ export const quotes: Quote[] = [
   {
     id: "025",
     dialogue: [
-      { speaker: "Me", line: "So if I’m not diagnosed with ADHD, it’s called hyper focus?" },
+      { speaker: "Nayeem", line: "So if I’m not diagnosed with ADHD, it’s called hyper focus?" },
       { speaker: "Seth", line: "Not sure tbh. I know it’s a trait of ADHD. And Meth" },
     ],
     subject: "Clinical Consultation",
