@@ -95,12 +95,12 @@ function BootScreen({ onEnter }: { onEnter: () => void }) {
   const [lines, setLines] = useState(0);
   const boot = [
     "SETH_OS BIOS v12.0.2014",
-    "CHECKING MEMORY.................. TOO MUCH KNOWLEDGE",
-    "MOUNTING /legacy................. UNFORTUNATELY ONLINE",
-    "LOADING production_trauma.sys.... OK",
-    "CHECKING HR PROXIMITY............ UPSTAIRS",
-    "INITIALIZING LANGUAGE FILTER..... FAILED",
-    "VERIFYING SURVIVAL STATUS........ UNEXPLAINED",
+    "CHECKING MEMORY.................................... TOO MUCH KNOWLEDGE",
+    "MOUNTING /legacy................................... UNFORTUNATELY ONLINE",
+    "LOADING production_trauma.sys...................... OK",
+    "CHECKING HR PROXIMITY.............................. UPSTAIRS",
+    "INITIALIZING LANGUAGE FILTER....................... FAILED",
+    "VERIFYING SURVIVAL STATUS.......................... UNEXPLAINED",
     "SYSTEM READY.",
   ];
 
